@@ -11,6 +11,8 @@ public class Grading {
 			answer[i]=Integer.parseInt(args[i]);
 		}
 	
+		System.out.println("ì‹œì‘í•©ë‹ˆë‹¤.");
+	
 	int a[][]={
 			{1,3,2,4,3,1,4,2,2,1},
 			{3,2,4,2,2,1,1,3,4,1},
@@ -26,7 +28,7 @@ public class Grading {
 			}
 			else System.out.print("X\t");
 		}
-		System.out.print("Á¡¼ö: "+sum[i]);
+		System.out.print("ì ìˆ˜: "+sum[i]);
 		System.out.println("");
 	}
 	
